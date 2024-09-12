@@ -1,0 +1,126 @@
+body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-header {
+            background-color: #2f3d50;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            background-color: #2f3d50;
+            width: 200px;
+            padding: 20px;
+            color: white;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2f3d50;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .top-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .top-buttons button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #2f3d50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .top-buttons button:hover {
+            background-color: #475a70;
+        }
+
+        /* Page Specific Styling */
+        .page-content {
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+        .payment-container {
+            text-align: center;
+        }
+
+        .payment-methods button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #2f3d50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .payment-methods button:hover {
+            background-color: #475a70;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        form input {
+            margin-bottom: 15px;
+            padding: 8px;
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        ul {
+            margin-top: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+        /* Responsive Image */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+}
